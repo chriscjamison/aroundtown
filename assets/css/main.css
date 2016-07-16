@@ -128,8 +128,15 @@ body {
 
 #bkgrnd > div + div + div + div {
 	width: 100%;
-	height: 44.13em;
+	height: 36.13em;
 	background: url('/aroundtown/assets/img/bkgrnd/4.png') 0 0 no-repeat;
+}
+
+#bkgrnd > div + div + div + div + div {
+	width: 100%;
+	height: 53.13em;
+	background-image: none;
+	background-color: #fff;
 }
 
 #cntainr {
@@ -330,7 +337,7 @@ body {
 
 #level-3 {
 	width: 61.5em;
-	height: 44.13em;
+	height: 36.13em;
 	margin: 0 auto;
 	padding-top: 1.5em;
 }
@@ -354,8 +361,12 @@ body {
 	margin: 0 auto;
 }
 
+#level-3 > input:first-of-type {
+	margin-right: 1.25em;
+}
+
 input[type=text] {
-	display: block;
+	display: inline-block;
 	margin-bottom: 1.25em;
 	padding: 0.5em 0.5em 0.6em 1em;
 	border: 1px solid #a5a29e;
@@ -374,10 +385,98 @@ input[type=submit] {
 
 textarea {
 	display: block;
-	margin: 0 auto;
-	padding: 0.7em 1em;
+	padding: 0.6em 0.85em;
 	border: 1px solid #a5a29e;
 	font-family: "adelle-sans", sans-serif;
 	font-size: 1.05em;
 	color: #a5a29e;
+}
+
+#level-4 {
+	width: 61.5em;
+	height: 53.13em;
+	margin: 0 auto;
+	padding-top: 1.5em;
+}
+
+#level-4 > span {
+	width: 6.3em;
+	display: block;
+	margin: 0 auto 0.65em auto;
+}
+
+#level-4 > div {
+	width: 16.25em;
+	height: 21.25em;
+	display: inline-block;
+	margin-right: 6.1em;
+	background-image: url('/aroundtown/assets/img/elements/social_media_icons.png');
+}
+
+#level-4 > div > span {
+	display: block;
+	margin: 17em auto 0 auto;
+	font-family: "merriweather";
+}
+
+#level-4 > div > a {
+	display: block;
+	margin: 0 auto;
+	font-family: "adelle-sans";
+	color: #a58b37;
+}
+
+#social_media-facebook > span {
+	width: 4.63em;
+}
+
+#social_media-facebook > a {
+	width: 9em;
+}
+
+#social_media-twitter {
+	margin-left: 11.25em;
+	background-position-y: -305px;
+}
+
+#social_media-twitter > span {
+	width: 3.7em;
+}
+
+#social_media-twitter > a, 
+#social_media-instagram > a {
+	width: 6.35em;
+}
+
+#social_media-instagram {
+	margin-right: 0 !important;
+	background-position-y: -680px;
+}
+
+#social_media-instagram > span {
+	width: 5.2em;
+}
+
+#social_media-youtube {
+	background-position-y: -995px;
+}
+
+#social_media-youtube > span {
+	width: 4.35em;
+}
+
+#social_media-youtube > a {
+	width: 12.1em;
+}
+
+#social_media-periscope {
+	background-position-y: -1350px;
+}
+
+#social_media-periscope > span {
+	width: 4.8em;
+}
+
+#social_media-periscope > a {
+	width: 8.7em;
 }
