@@ -15,19 +15,22 @@
   <body>
     <div id="headr">
       <img src="/aroundtown/assets/img/elements/logo.png" width="121" height="75" alt="Around Town with Dallas & RaeJ" />
-      <div class="headr-spcr"></div>
-      <h1 class="headr-main">Welcome</h1>
-      <div class="headr-spcr"></div>
+      <div></div>
+      <div id="headr-showtimes">
+        <h2 class="headr-main">Showtimes</h2>
+        <p>Wednesdays from 1:30 - 2:00 am on KDNL ABC 30</p>
+      </div>
+      <div></div>
       <input type="button" value="Support Around Town" />
     </div>
     <div id="menu">
-      <a href="#welcome" id="welcome">Welcome</a>
+      <a href="#" id="welcome">Welcome</a>
       <span>&nbsp;</span>
-      <a href="#about" id="about">About Around Town</a>
+      <a href="#about_a-t" id="about">About Around Town</a>
       <span>&nbsp;</span>
       <a href="#recent_shows" id="recentshows">Recent Shows</a>
       <span>&nbsp;</span>
-      <a href="#contact_us" id="contactus">Contact Around Town</a>
+      <a href="#contact_a-t" id="contactus">Contact Around Town</a>
       <span>&nbsp;</span>
       <a href="#social_media" id="social">Social Media</a>
     </div>
@@ -47,12 +50,6 @@
                 Checkout out our premiere on Wednesday, August 3, 2016 from 1:30 - 2:00 am on KDNL ABC 30!
               </p>
             </div>
-            <div>
-              <h1 class="headr-level_0">Showtimes</h1>
-              <p>
-                Wednesdays from 1:30 - 2:00 am on KDNL ABC 30
-                </p>
-            </div>
           </div>
         </div>
         <div id="box-l0-right">
@@ -62,10 +59,11 @@
           	<h3>Do you want to be a featured guest?</h3>
             <div></div>
             <h3>Have a comment or suggestion about Around Town?</h3>
-            <input type="button" value="Contact Us" id="button-l0-contact_us" />
+            <input type="button" value="Contact Us" id="button-l0-contact_us" onclick="window.location.hash = 'contact_a-t';" />
           </div>
         </div>
       </div>
+      <a name="about_a-t"></a>
       <div id="level_1">
       	<h1 class="headr-level_1">About Around Town</h1>
         <img src="/aroundtown/assets/img/elements/about_at-dallas_raej.jpg" width="960" height="374" alt="Around Town is hosted by Dallas Jamison & Rae J Johnson" />
@@ -87,6 +85,7 @@
            <strong>Set your DVR!</strong>
         </p>
       </div>
+      <a name="recent_shows"></a>
       <div id="level_2">
         <h1 class="headr-level_2">Recent Shows</h1>
         <div id="box-l2-left">
@@ -112,6 +111,7 @@
           <p><strong>First Aired: </strong>March 17, 2016</p>
         </div>
       </div>
+      <a name="contact_a-t"></a>
       <div id="level_3">
         <h1 class="headr-level_3">Contact Around Town</h1>
         <p>
@@ -121,13 +121,16 @@
         <p>
           Nam feugiat odio et tempor malesuada.
         </p>
+        <form name="contact_at" method="POST" action="/aroundtown/assets/php/contact_us.php">
         <div>
-          <input type="text" size="38" maxlength="50" value="Enter in your name" name="name" />
-          <input type="text" size="55" maxlength="75" value="Enter in your email address" name="email" />
-          <textarea cols="100" rows="7" name="message">Enter in your message</textarea>
+          <input type="text" size="38" maxlength="50" value="Enter your name" name="name" />
+          <input type="text" size="55" maxlength="75" value="Enter your email address" name="email" />
+          <textarea cols="100" rows="7" name="message">Enter your message</textarea>
         </div>
         <input type="submit" value="Send Message" id="input-submit_contact" />
+        </form>      
       </div>
+      <a name="social_media"></a>
       <div id="level_4">
         <h1 class="headr-level_4">Social Media</h1>
         <div id="social_media-facebook">
@@ -154,11 +157,11 @@
       <div id="footer">
         <img src="/aroundtown/assets/img/elements/logo-footer.png" width="98" height="58" alt="Around Town with Dallas & RaeJ" />
         <div>
-          <a href="#welcome">Welcome</a>
-          <a href="#about">About Around Town</a>
+          <a href="#">Welcome</a>
+          <a href="#about_a-t">About Around Town</a>
           <a href="#recent_shows">Recent Shows</a>
-          <a href="contact_us">Contact Us</a>
-          <a href="social_media">Social Media</a>
+          <a href="#contact_a-t">Contact Us</a>
+          <a href="#social_media">Social Media</a>
         </div>
         <div>
           <div></div><a href="http://www.facebook.com/aroundtown/">Facebook</a>
