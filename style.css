@@ -1,0 +1,2783 @@
+/* main.css */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  width: 61.5em;
+  height: 5.94em;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+#header > img {
+  width: 8.94em;
+  height: 4.69em;
+	display: inline-block;
+  margin: 0.6em 0;
+}
+
+h1 {
+	display: block;
+	margin: 0 auto;
+	font-family: "merriweather", serif;
+	font-size: 2em;
+	font-weight: 400;
+	color: #323275;
+	border: 1px solid #a5a29e;
+  border-left: none;
+	border-right: none;
+}
+
+#header-showtimes {
+	width: 21.25em !important;
+	vertical-align: top;
+}
+
+#header-showtimes h2 {
+	width: 100%;
+	margin-top: 0.2em;
+	border-bottom: 1px solid #a5a29e;
+	font-family: "merriweather", serif;
+	color: #323275;
+}
+
+#header-showtimes p {
+	margin: 0.1em 0;
+	padding-top: 0.1em;
+	font-family: "merriweather", serif;
+	font-size: 0.76em;
+	font-weight: 600;
+	text-align: center;
+}
+
+#header-showtimes > p:last-of-type {
+	font-weight: 400;
+	font-size: 0.7em;
+	margin-top: 0.25em;
+	color: #444;
+}
+
+.header-main {
+  width: initial;
+  height: 1.05em;
+  display: inline-block;
+  margin: 0.5em auto 0.3em auto;
+	padding: 0.1em 0 0.3em 0;
+	vertical-align: top;
+	text-align: center; 
+}
+
+#header > input {
+	width: 11.5em;
+	display: inline-block;
+	margin-top: 1em;
+	vertical-align: top;
+}
+
+#menu-item-bttn {
+	display: none !important;
+}
+
+#header > div {
+  width: 15.25%;
+  height: 3.5em;
+  display: inline-block;
+}
+
+.menu-nav {
+  width: 100%;
+  height: 2.5em;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 1.05em;
+  background-color: #a68c6b;
+}
+
+#menu {
+	width: 61.25em;
+	height: initial;
+	margin: 0.1em auto;
+	padding: 0;
+}
+
+#menu > li {
+	width: 12em;
+	display: inline-block;
+}
+
+#menu > li:last-of-type {
+	border-right: none;
+}
+
+#menu-mobile_button {
+	display: none;
+}
+
+#menu > li > a, 
+#menu-mobile_button > a {
+  display: block;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	font-size: 0.91em;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+	font-style: normal;
+  text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+  color: #fff;
+}
+
+#menu > span {
+  width: 0.125em;
+  height: 1em;
+  display: block;
+	float: left;
+  margin: 0.25em 1.25em;
+  background-color: #a5a29e;
+}
+
+#header-shadow {
+  width: 100%;
+  height: 0.56em;
+	position: absolute;
+}
+
+#header-shadow > div {
+	width: 11.6%;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/sep/menu_side_cap.png') 0 0 no-repeat;
+	float: left;
+}
+
+#header-shadow > div:nth-child(2) {
+	width: 76.75%;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/sep/horiz_1366x9-fade_ltdark.png') 0 0 repeat-x;
+}
+
+#header-shadow > div + div + div {
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/sep/menu_side_cap-right.png') 0 0 no-repeat;
+}
+
+#bkgrnd {
+	width: inherit;
+	height: initial;
+	position: absolute;
+	top: 10em;
+	left: 0;
+	z-index: -1;
+}
+
+#bkgrnd > div {
+	padding-bottom: 1.5em;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#level_0 {
+	width: 61.5em;
+	height: 25.75em;
+	margin: 0.5em auto 0 auto;
+}
+
+#bkgrnd-level_0 {
+	width: 100%;
+	height: 26em;
+	background: none;
+}
+
+#box-l0-left {
+	width: 38.3em;
+	height: inherit;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "merriweather", serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#box-l0-left > img {
+	margin-left: 0.5em;
+}
+
+#box-l0-left > div {
+	width: 38.3em;
+	position: absolute;
+	top: 29.5em;
+}
+
+#box-l0-left > div > div {
+	padding: 1em;
+	background-color: #afc9de;
+}
+
+#box-l0-left > div > div > h4 {
+	width: 6.7em;
+	margin: 0 auto;
+	display: block;
+	font-weight: 700;
+}
+
+#box-l0-left p {
+	margin: 0.5em 0;
+	font-size: 0.9em;
+	text-align: center;
+	color: #020276;
+}
+
+#box-l0-left > div > div + div > p {
+	font-size: 1.15em;
+	font-weight: 600;
+	color: #a67737;
+}
+
+#box-l0-left > div > div + div {
+	padding: 0.5em;
+	background: none;
+}
+
+#box-l0-right {
+	width: 22.75em;
+	height: 25.13em;
+	display: inline-block;
+} 
+
+#box-l0-right > div {
+	width: 23.13em;
+	height: 0.3em;
+}
+
+#box-l0-right > div + div {
+	width: 21.25em;
+	height: 10.05em;
+	padding: 0.75em;
+	background-color: #475b6b;
+}	
+
+#box-l0-right > div + div > div {
+	width: 10em;
+	height: 2px;
+	margin: 0.2em auto 0.5em auto;
+	background-color: #737678;
+}
+
+h3 {
+	width: 18.1em;
+	display: block;
+	margin: 0.25em auto;
+	font-family: "merriweather", serif;
+	font-size: 0.95em;
+	font-weight: 400;
+	line-height: 1.6em;
+	text-align: center;
+	color: #d2e4f3;	
+}
+
+#button-l0-contact_us {
+	width: 11.5em;
+	display: block;
+	margin: 0.4em auto;
+}
+
+#level_1 {
+	width: 100%;
+	height: 44em;
+	margin: 0 auto;
+	padding: 1.5em 0;
+	font-family: "merriweather", serif;
+}
+
+#bkgrnd-level_1 {
+	width: 100%;
+	height: 43.75em;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/1.gif') 0 0 repeat-x;
+}
+
+#level_1 > h1 {
+	width: 10.1em;
+	display: block;
+	margin: 0 auto;
+}
+
+#level_1 > img {
+	width: 60em;
+	height: 23.38em;
+	display: block;
+	margin: 1.5em auto;
+}
+
+#level_1 > p {
+	margin: 1em auto;
+	display: block;
+	width: 60em;
+	font-weight: 400;
+}
+
+#level_2 {
+	width: 61.5em;
+	height: 35.75em;
+	margin: 0 auto;
+	padding: 1.5em 0;
+}
+
+#bkgrnd-level_2 {
+	width: 100%;
+	height: 37.25em;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/2.png') 0 0 repeat-x;
+}
+
+#level_2 > h1 {
+	width: 6.93em;
+	display: block;
+	margin: 0 auto 0.65em auto;
+}
+
+#box-l2-left, 
+#box-l2-right {
+	height: 31.75em;
+	display: inline-block;
+	font-family: "merriweather", serif;
+}
+
+#box-l2-left {
+	width: 32.5em;
+	vertical-align: top;
+}
+
+#box-l2-left > div {
+	margin: 1em 0;
+}
+
+#box-l2-left > iframe + a + p + div + p {
+	font-size: 0.95em;
+	line-height: 1.4em;
+}
+
+#box-l2-left > a + span + div + p + div + a {
+	font-size: 1em;
+}
+
+#box-l2-mid {
+	width: 1px;
+	height: 8.25em;
+	display: inline-block;
+	margin: 11.6em 3.2em;
+	vertical-align: inherit;
+	background-color: #e5e1db;
+}
+
+#box-l2-left > div, 
+#box-l2-right > div {
+	width: 8.25em;
+	height: 1px;
+	margin: 0.5em auto;
+	background-color: #e5e1db;
+}
+
+#box-l2-left > a,
+#box-l2-right > a {
+	display: block;
+	margin: 0.2em auto;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	color: #a68b37;
+}
+
+#box-l2-left > p,
+#box-l2-right > p, 
+#box-l2-right > h5 {
+	display: block;
+  margin-top: 0.8em;
+	font-size: 0.95em;
+  text-align: center;
+	color: #66686a;
+}
+
+#box-l2-right {
+	width: 22em;
+}
+
+#box-l2-right > a {
+	font-size: 1em;
+}
+
+#box-l2-right > h5, 
+#box-l2-right > h4 + p,
+#box-l2-right > h4 + p + p {
+	margin: 0.35em;
+}
+
+#box-l2-right > div {
+	margin: 0.75em auto 0.95em auto;
+}
+
+#box-l2-right > iframe {
+	margin: 0 auto;
+	padding: 0 1.75em;
+	display: block;
+}
+
+#box-l2-right > h4 {
+	width: 16em;
+	margin: 0 auto;
+}
+
+#box-l2-right > p {
+	margin: 0.5em;
+}
+
+#level_3 {
+	width: 61.5em;
+	height: 44.5em;
+	margin: 0 auto;
+	padding: 1.5em 0;
+}
+
+#bkgrnd-level_3 {
+	width: 100%;
+	height: 46em;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/3.jpg') 0 0 no-repeat;
+}
+
+#level_3 > h1 {
+	width: 10.95em;
+	display: block;
+	margin: 0 auto 0.65em auto;
+}
+
+#level_3 > p {
+	font-family: "merriweather", serif;
+	font-size: 0.95em;
+	line-height: 1.4em;
+	color: #fff;
+}
+
+#level_3 > p.level_3-note {
+	font-size: 0.7em;
+}
+
+#level_3 > form > div {
+	width: 53.25em;
+	height: 20.25em;
+	margin: 0 auto;
+}
+
+#level_3 > form > div > p {
+	margin-top: 0.75em;
+	padding-top: 0.75em;
+	font-family: "merriweather";
+	font-size: 1.25em;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+}
+
+input[type="button"], 
+input[type="submit"] {
+	width: 10.3em;
+	height: 3.75em;
+	padding: 0.75em;
+	background-color: #e4c877;
+	border: none;
+	cursor: default;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color: #a67737;
+	box-shadow: 2px 2px 1px #66686a;
+}
+
+input[type="button"]:hover, 
+input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+input[type=text] {
+	display: inline-block;
+	margin-bottom: 1.25em;
+	padding: 0.5em 1.5em 0.6em 1em;
+	border: 1px solid #a5a29e;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	font-size: 1.05em;
+	color: #a5a29e;
+}
+
+input[type=submit] {
+	position: relative;
+	display: block;
+	float: right;
+	top: 0.75em;
+	right: 4.5em;
+}
+
+textarea {
+	display: block;
+	padding: 0.6em 0.85em;
+	border: 1px solid #a5a29e;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	font-size: 1.05em;
+	color: #a5a29e;
+}
+
+#level_4 {
+	width: 61.5em;
+	height: 45em;
+	margin: 0 auto;
+	padding: 1.5em 0;
+}
+
+#bkgrnd-level_4 {
+	width: 100%;
+	height: 46.5em;
+	background-image: none;
+	background-color: #fff;
+}
+
+#level_4 > h1 {
+	width: 6.3em;
+	display: block;
+	margin: 0 auto 0.65em auto;
+}
+
+#level_4 > h6 {
+	display: none;
+}
+
+#level_4 > div {
+	width: 16.25em;
+	height: 21.25em;
+	display: inline-block;
+	margin-right: 6.1em;
+	background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons.png');
+}
+
+#level_4 > div > span {
+	display: block;
+	margin: 17em auto 0 auto;
+	font-family: "merriweather";
+}
+
+#level_4 > div > a {
+	display: block;
+	margin: 0 auto;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	color: #a58b37;
+}
+
+#social_media-facebook > span {
+	width: 4.63em;
+}
+
+#social_media-facebook > a {
+	width: 9em;
+}
+
+#social_media-twitter {
+	margin-left: 11.25em;
+	background-position-y: -305px;
+}
+
+#social_media-twitter > span {
+	width: 3.7em;
+}
+
+#social_media-instagram > a {
+	width: 6.2em;
+}
+
+#social_media-twitter > a {
+	width: 7.3em;
+}
+
+#social_media-instagram {
+	margin-right: 0 !important;
+	background-position-y: -680px;
+}
+
+#social_media-instagram > span {
+	width: 5.2em;
+}
+
+#social_media-youtube {
+	background-position-y: -995px;
+}
+
+#social_media-youtube > span {
+	width: 4.35em;
+}
+
+#social_media-youtube > a {
+	width: 7.7em;
+}
+
+#social_media-periscope {
+	background-position-y: -1350px;
+}
+
+#social_media-periscope > span {
+	width: 4.8em;
+}
+
+#social_media-periscope > a {
+	width: 8.7em;
+}
+
+#footer {
+	width: 61.5em;
+	height: 20.3em;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+#bkgrnd-footer {
+	width: 100%;
+	height: 20.3em;
+	padding-bottom: 0 !important;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/footer.jpg') 0 0 no-repeat;
+	background-color: #fff;
+}
+
+#bkgrnd-footer > div {
+	height: 9px;
+	background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/sep/horiz_1366x9-fade_dark.png') 0 0 no-repeat;
+}
+
+#bkgrnd-footer > div + div  {
+	width: 61.5em;
+	height: 15em;
+	margin: 4.75em auto 0 auto;
+	background: none;
+	opacity: 0.8;
+}
+
+#bkgrnd-footer > div + div > div {
+	width: 16em;
+	height: 15em;
+	float: left;
+	margin-right: 6.75em;
+	background-color: #2f2f32;
+}
+
+#bkgrnd-footer > div + div > div + div + div {
+	margin-right: 0;
+}
+
+#footer > div:first-of-type {
+	width: inherit;
+	height: 5.3em;
+	margin: 0;
+	clear: both;
+}
+
+#footer > div > img {
+	display: block;
+	float: left;
+	padding: 1em 0 0 2.85em;
+}
+
+#footer > div > div:first-of-type {
+	float: right;
+	margin-right: 2.85em;
+}
+
+#footer > div > div:first-of-type > h6 {
+	margin: 2.5em 0 0.25em 0;
+	padding: 0;
+	font-family: "merriweather", serif;
+	font-size: 0.76em;
+	color: #b7b7b7;
+}
+
+#footer > div > div:first-of-type > h6 + a {
+	display: block;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	font-size: 0.76em;
+	text-align: right;
+	color: #a58b37;
+}
+
+#footer > div {
+	width: 16em;
+	height: 15em;
+	margin: 0 5.45em 0 1.3em;
+	float: left;
+}
+
+#footer > div > ul {
+	margin: 0;
+	padding: 0;
+}
+
+#footer > div + div + div + div {
+	margin: 0;
+}
+
+#footer > div > ul > li {
+	display: block;
+}
+
+#footer > div > ul > li:last-of-type > a {
+	margin-bottom: 0;
+}
+
+#footer > div > ul > li > a {
+	display: block;
+	margin: 1.1em 0 1.38em 1.5em;
+	padding-top: 0.1em;
+	font-family: "adelle-sans", "Franklin Gothic Medium", "Arial", "Helvetica", sans-serif;
+	color: #a58b37;
+}
+
+#footer > div + div + div > ul > li > a {
+	width: 11em;
+	margin: 1.05em 0 0 2.75em;
+}
+
+#footer > div + div + div > ul > li {
+	width: 1.88em;
+	height: 1.88em;
+	display: block;
+	margin: 0 0.5em 0.65em 1.25em;
+	background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons-small.png');
+}
+
+#footer > div + div + div > ul > li:first-of-type {
+	margin-top: 1.05em;
+}
+
+#footer > div + div + div > ul > li + li  {
+	background-position-y: -155px;
+}
+
+#footer > div + div + div > ul > li + li + li {
+	background-position-y: -80px;
+}
+
+#footer > div + div + div > ul > li + li + li + li {
+	background-position-y: -35px;
+}
+
+#footer > div + div + div > ul > li + li + li + li + li {
+	margin-bottom: 0;
+	background-position-y: -115px;
+}
+
+#footer > div + div + div > ul > a:first-of-type {
+	margin-top: 1.25em;
+}
+
+#footer > div + div + div + div > img {
+	display: block;
+	float: none;
+	margin: 1.25em auto 0.9em auto;
+	padding: 0;
+	width: 165px;
+}
+
+#footer > div > p {
+	width: 12.3em;
+	float: right;
+	margin: 0 3.75em 0 0;
+	padding: 0;
+	font-family: "merriweather";
+	font-size: 0.75em;
+	text-align: right;
+	color: #b7b7b7;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#bttn-support_at {
+		width: 11.7em;
+	}
+
+	#social_media-facebook > a {
+		width: 9.05em;
+	}
+
+	#social_media-twitter > a {
+		width: 7.34em;
+	}
+}
+
+@supports (-ms-ime-align:auto) {
+  #bttn-support_at {
+		width: 11.7em;
+	}
+
+	#social_media-facebook > a {
+		width: 9.05em;
+	}
+
+	#social_media-twitter > a {
+		width: 7.34em;
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1024px) {
+		#menu > li > a {
+			font-size: 0.7em;
+		}
+	}
+}
+
+@media screen and (min-width: 1850px) {
+	#header-shadow > div {
+		width: 10.15%;
+	}
+
+	#header-shadow > div:nth-child(2) {
+		width: 79.7%;
+	}
+
+	#level_4 {
+		height: 45em;
+	}
+
+	#bkgrnd-level_3 {
+		background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/3-lg.jpg') 0 0 no-repeat;
+	}
+
+	#bkgrnd-level_4 {
+		height: 46.5em;
+	}
+
+	#bkgrnd-footer {
+		background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/footer-lg.jpg') 0 0 no-repeat;
+	}
+
+	#bkgrnd-footer > div {
+		background-repeat: repeat-x;
+	}
+}
+
+@media screen and (min-width: 1590px) and (max-width: 1840px) {
+	#bkgrnd-level_3 {
+		background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/3-med.jpg') 0 0 no-repeat;
+	}
+
+	#bkgrnd-footer {
+		background: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/footer-med.jpg') 0 0 no-repeat;
+	}
+
+	#bkgrnd-footer > div {
+		background-repeat: repeat-x;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	html, 
+	body, 
+	#header-shadow, 
+	#header-shadow > div, 
+	#menu, 
+	.menu-nav,
+	#header-shadow > div:nth-child(2),
+	#bkgrnd-level_0,
+	#bkgrnd-level_1, 
+	#bkgrnd-level_2,
+	#bkgrnd-level_3,
+	#bkgrnd-level_4, 
+	#level_0, 
+	#level_1, 
+	#level_2, 
+	#level_3, 
+	#level_4, 
+	#footer {
+		width: 48em;
+	}
+
+	#bkgrnd {
+		top: 3.9em;
+	}
+
+	#bkgrnd > div {
+		padding-bottom: 1.25em;
+	}
+
+	#header, 
+	#header-shadow > div:first-of-type, 
+	#header-shadow > div:last-of-type {
+		display: none;
+	}
+
+	input[type='button'] {
+		width: 7em;
+		height: 2.75em;
+		padding: 0;
+		font-size: 0.8em;
+	}
+
+	#menu {
+		margin: 0 auto;
+	}
+
+	.menu-nav {
+		height: 1.2em;
+		padding: 1em 0;
+	}
+
+	#menu > li {
+		width: 9.4em;
+	}
+
+	#menu > li > a {
+		font-size: 0.74em;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	#level_1 > p, 
+	#box-l2-left > a,
+	#box-l2-right > a, 
+	#level_3 > p, 
+	input[type='text'], 
+	textarea, 
+	#level_4 > div > span, 
+	#footer > div > ul > li > a  { 
+		font-size: 0.9em;
+	}
+
+	#box-l2-left > p,
+	#box-l2-left > p:nth-child(5),
+	#box-l2-right > p, 
+	#level_4 > h6, 
+	#footer > div > div:first-of-type > h6, 
+	#footer > div > div:first-of-type > h6 + a
+	#footer > div > p {
+		font-size: 0.8em;
+	}
+
+	#level_0 {
+		height: 13.25em;
+	}
+
+	#bkgrnd-level_0 {
+		height: 13em;
+		padding-bottom: 0;
+	}
+
+	#box-l0-left {
+		width: 21em;
+	}
+	
+	#box-l0-left, 
+	#box-l0-right {
+		height: 13.2em;
+		position: absolute;
+		display: block;
+	}
+
+	#box-l0-left > img {
+		width: 20em;
+		height: 10.47em;
+	}
+
+	#box-l0-left > div {
+		width: 26.5em;
+		top: 8.5em;
+		left: 21em;
+	}
+	
+	#box-l0-left > div > div {
+		padding: 1em 0.7em;
+	}
+
+	#box-l0-left > div > div > h4 {
+		font-size: 0.8em;
+	}
+
+	#box-l0-left > div > div > p {
+		margin: 0.35em 0;
+		font-size: 0.73em;
+	}
+
+	#box-l0-right {
+		width: 27em;
+		left: 21em;
+	}
+
+	#box-l0-right > iframe {
+		width: 14em;
+		height: 8.13em;
+		padding: 0;
+	}
+
+	#box-l0-right > div:first-of-type {
+		display: none;
+	}
+
+	#box-l0-right > div + div {
+		width: 11em;
+		height: 7.1em;
+		padding: 0.5em;
+		display: block;
+		position: absolute;
+		left: 14.5em;
+		top: 0;
+	}
+
+	#box-l0-right > div > h3 {
+		width: 15.5em;
+		margin: 0 auto;
+		font-size: 0.65em;
+	}
+
+	#box-l0-right > div + div > div {
+		margin: 0.2em auto 0.39em auto;
+	}
+
+	#menu-item-bttn {
+		width: 9em !important;
+		height: 2.25em;
+		display: block !important;
+		position: absolute;
+		top: 14.5em;
+		left: 6em;
+	}
+
+	#menu-item-bttn > input[type='button'] {
+		width: 11em;
+	}
+
+	#level_1 {
+		height: 34.1em;
+		padding: 1.25em 0;
+	}
+
+	#bkgrnd-level_1 {
+		height: 34.5em;
+	}
+
+	#level_1 > img {
+		width: 38em;
+		height: 14.79em;
+		margin: 1em auto;
+	}
+
+	#level_1 > p, 
+	#level_3 > p {
+		width: 42.5em;
+		margin: 1em auto;
+		line-height: 1.5em;
+	}
+
+	#level_2 {
+		height: 21.25em;
+		padding: 1.25em 0;
+	}
+
+	#bkgrnd-level_2 {
+		height: 22.25em;
+	}
+
+	#box-l2-left {
+		width: 20em;
+		margin-left: 0.5em;
+	}
+
+	#box-l2-left > iframe:first-of-type {
+		width: 20em;
+		height: 10.75em;
+	}
+
+	#box-l2-left > iframe + a + p + div:first-of-type, 
+	#box-l2-mid {
+		display: none;
+	}
+
+	#box-l2-left > div:nth-child(6) {
+		width: 17.75em;
+		margin: 0.75em auto;
+	}
+
+	#box-l2-left, 
+	#box-l2-right {
+		height: 19.25em;
+	}
+
+	#box-l2-left > p,
+	#box-l2-right > p {
+		margin: 0.6em;
+	}
+
+	#box-l2-right {
+		width: 26.75em;
+		margin-left: 0.5em;
+	}
+
+	#box-l2-right > iframe {
+		width: 13em;
+		height: 7em;
+		display: block;
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+
+	#box-l2-right > iframe:nth-child(6) {
+		top: -10.05em;
+		left: 13.5em;
+	}
+	
+	#box-l2-right > a, 
+	#box-l2-right > p {
+		width: 14.5em;
+		position: relative;
+		margin: 0;
+		top: 0.5em;
+	}
+
+	#box-l2-right > p {
+		width: 16.25em;
+		margin-top: 0.75em;
+	}
+
+	#box-l2-right > div:first-of-type {
+		display: none;
+	}
+	
+	#box-l2-right > div:nth-child(5) {
+		width: 17.75em;
+		margin: 0 auto;
+		position: relative;
+		top: 1.5em;	
+	}
+
+	#box-l2-right > a:nth-child(7) {
+		top: -10.55em;
+		right: -15em;
+	}
+
+	#box-l2-right > p:nth-child(8) {
+		top: -12em;
+		right: -17em;
+	}
+
+	#box-l2-right > h4 {
+		width: 16.25em;
+		margin: 0 auto;
+		position: relative;
+		top: -7.65em;
+		font-size: 1em;
+	}
+
+	#box-l2-right > p:nth-child(10) {
+		margin: 0 auto;
+		top: -8.85em;
+	}
+
+	#box-l2-right > p:nth-child(11) {
+		margin: 0 auto;
+		top: -8.35em;
+	}
+
+	#box-l2-right > a:nth-child(12) {
+		width: 22em;
+		top: -6.85em;
+		margin: 0 auto;
+	}
+
+	#level_3 {
+		height: 45.5em;
+		padding: 1.25em 0;
+	}
+
+	#bkgrnd-level_3 {
+		height: 47em;
+	}
+
+	#level_3 > form > div {
+		width: 42.5em;
+		height: 17em;
+	}
+
+	#level_3 > form > div > textarea {
+		width: 43.75em;
+	}
+
+	#input-submit_contact {
+		top: 1em;
+		right: 4.3em;
+	}
+
+	#level_4 {
+		height: 14.75em;
+		padding: 1.25em 0;
+	}
+
+	#bkgrnd-level_4 {
+		height: 16.25em;
+	}
+
+	#level_4 > h6 {
+		margin: 0.75em 0;
+		font-family: "merriweather", serif;
+		text-align: center;
+	}
+
+	#level_4 > div {
+		width: 7.5em;
+		height: 9.5em;
+		margin-right: 2.1em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons-ipad.png');
+	}
+
+	#level_4 > #social_media-facebook {
+		margin-top: 1em !important;
+		margin-left: 0.5em !important;
+	}
+
+	#level_4 > #social_media-periscope {
+		background-position: 0px -157px;
+	}
+
+	#level_4 > #social_media-instagram {
+		margin-right: 2.35em !important;
+		background-position: 0 -316px;
+	}
+
+	#level_4 > #social_media-twitter {
+		margin-left: 0 !important;
+		background-position: 0px -473px;
+	}
+
+	#level_4 > #social_media-youtube {
+		margin-right: 0em !important;
+		background-position: 0px -633px;
+	}
+
+	#level_4 > div > span {
+		margin-top: 8.75em;
+	}
+	
+	#level_4 > div > span + a {
+		display: none;
+	}
+
+	#footer > div:nth-child(3), 
+	#bkgrnd-footer > div:nth-child(2) > div:nth-child(1) {
+		display: none;
+	}
+
+	#footer > div > ul > li > a {
+		margin: 1.85em 0 1.38em 1.5em;
+	}
+	
+	#menu-primary > .menu-item-4 > a {
+		margin: 0.95em 0 1.38em 1.5em;
+	}
+
+	#footer > div {
+		width: 14.25em;
+		margin: 0 17em 0 1.75em;
+	}
+
+	#footer > div > p {
+		margin: 0 2.6em 0 0;
+	}
+
+	#bkgrnd-footer > div {
+		padding-bottom: 0;
+	}
+
+	#bkgrnd-footer > div:nth-child(2) > div:nth-child(2) {
+		margin-right: 16em;
+	}
+
+	#bkgrnd-footer > div:nth-child(2) > div:nth-child(3) {
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+	html, 
+	body, 
+	#header-shadow, 
+	#header-shadow > div, 
+	#menu, 
+	.menu-nav,
+	#level_0, 
+	#box-l0-left,
+	#box-l0-left > div,
+	#level_1,
+	#level_2, 
+	#box-l2-left, 
+	#box-l2-right, 
+	#level_3, 
+	#level_3 > div, 
+	#level_3 > form > div, 
+	#level_4, 
+	#footer > div > div:first-of-type {
+		width: 25.87em !important;
+	} 
+
+	#footer, 
+	#bkgrnd-footer, 
+	#bkgrnd-footer > div {
+		width: 25.9em !important;
+	}
+
+	#bkgrnd {
+		top: 0;
+	}
+	
+	#header, 
+	#menu, 
+	#header-shadow > div:first-of-type, 
+	#header-shadow > div:last-of-type {
+		display: none;
+	}
+
+	#menu {
+		height: inherit;
+		margin: 0.1em auto;
+		padding: 0; 
+	}
+
+	#bttn-support_at-mobile {
+		width: 12.5em;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#menu-item-bttn {
+		display: block !important;
+	}
+
+	.menu-nav {
+		height: 3.1em;
+		padding: 1em 0;
+	}
+
+	#menu-mobile_button {
+		display: block;
+	}
+
+	#menu-mobile_button > a {
+		width: 12em;
+		margin: 0 auto;
+    padding: 0.75em;
+    font-size: 1.1em;
+		background-color: #e4c877;
+    color: #a67737;
+		box-shadow: 2px 2px 1px #66686a;
+	}
+
+	#menu > li {
+		width: 13.9em;
+	}
+
+	#menu > li > a {
+		font-size: 1.1em;
+	}
+
+	input['type=button'], 
+	input['type=submit'] {
+		font-size: 1.1em;
+	}
+
+	#level_0 {
+		height: 47.5em;
+	}
+
+	#bkgrnd-level_0 {
+		height: 53.1em;
+	}
+
+	#box-l0-left {
+		height: 20.2em;
+	}
+
+	#box-l0-left, 
+	#box-l0-right {
+		display: block;
+	}
+	
+	#box-l0-left > img {
+		width: 25em;
+		height: 13.19em;
+	}
+	
+	#box-l0-left > div {
+		width: 25.87em;
+		position: relative;
+		margin-top: 0.2em;
+		top: 0;
+	}
+
+	h4,
+	#box-l0-left p, 
+	#level_1 > p, 
+	#box-l2-left > p, 
+	#box-l2-left > iframe + a + p + div + p, 
+	#box-l2-right > a, 
+	#box-l2-right > p, 
+	#box-l2-right > h5,
+	#level_3 > p, 
+	#level_4 > div > span, 
+	input[type='text'], 
+	textarea, 
+	#level_4 > h6 {
+		font-size: 1.1em;
+	}
+
+	#box-l0-right {
+		width: 25.87em
+	}
+
+	iframe {
+		width: 25em;
+		height: 14.69em;
+		padding: 0 0.45em !important;
+	}
+
+	#box-l0-right {
+		height: 26.8em;
+		margin-top: 0.6em;
+	}
+	 
+	#box-l0-right > div {
+		width: 25.87em;
+	}
+
+	#box-l0-right > div > h3 {
+		width: 19.3em;
+		margin: 0 auto;
+		font-size: 1.1em;
+	}
+
+	#box-l0-right > div {
+		width: 23.45em;
+	}
+	
+	#box-l0-right > div + div {
+		width: 24.45em;
+		padding: 0.5em 0.75em 1em 0.75em;
+	}
+
+	#box-l0-right > div + div > div {
+		margin: 0.3em auto 0.7em auto;
+	}
+
+	#level_1 {
+		height: 48.5em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_1 {
+		height: 51.5em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/1-mobile.gif');
+	}
+
+	h1 {
+		font-size: 1.6em;
+		border-width: 1px;
+	}
+
+	#level_1 > h1 {
+		width: 10.1em;
+	}
+ 
+	#level_1 > img {
+		width: 24.75em;
+		height: 9.75em;
+		margin: 0.75em auto;
+	}
+
+	#level_1 > p, 
+	#level_3 > p {
+		width: 24.75em;
+		margin: 1.1em auto;
+		padding: 0 0.75em;
+		line-height: 1.5em;
+	}
+
+	#level_2 {
+		height: 78em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_2 {
+		height: 79.8em;
+		background: none;
+	}
+
+	#box-l2-left, 
+	#box-l2-right {
+		height: 27em;
+		display: block;
+	}
+
+	#box-l2-right {
+		height: 47.8em;
+	}
+
+	#box-l2-left > div {
+		width: 18em;
+		margin: 0.5em auto;
+	}
+
+	#box-l2-mid {
+		display: none;
+	}
+
+	#box-l2-right > div {
+		width: 18.55em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#level_3 {
+		height: 49em;
+		padding: 0.95em 0;
+	}
+
+	#bkgrnd-level_3 {
+		height: 50em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/3-mobile.jpg');
+	}
+
+	#level_3 > p {
+		display: block;
+	}
+
+	#level_3 > form > div {
+		height: 17.8em;
+	}
+
+	form[name='contact_at'] {
+		height: 22.5em;
+	}
+
+	input[type='text'], 
+	textarea {
+		width: 20.2em;
+		display: block;
+		margin: 0 auto 0.75em auto;
+	}
+
+	textarea {
+		width: 21em;
+	}
+
+	input[type='submit'] {
+		float: none;
+		margin: 0 auto;
+		right: 0;
+	}
+
+	#level_4 {
+		height: 19.5em;
+		padding: 0.95em 0 0.25em 0;
+	}
+	
+	#bkgrnd-level_4 {
+		height: 20.6em;
+	}
+
+	#level_4 > h6 {
+		width: 21em;
+		display: block;
+		margin: 0 auto;
+		font-family: "merriweather", serif;
+		color: #66686a;
+	}
+
+	#level_4 > div {
+		width: 4.69em;
+		height: 5em;
+		margin-right: 5.45em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons-mobile.png');
+	}
+
+	#level_4 > div:first-of-type {
+		margin-top: 1em;
+		margin-left: 0.5em;
+	}
+
+	#social_media-periscope {
+		background-position: 0px 107px;
+	}
+
+	#social_media-instagram {
+		background-position: 0 -193px;
+	}
+
+	#social_media-twitter {
+		margin-top: 1em;
+		margin-left: 5.59em;
+		background-position: 0px -92px;
+	}
+
+	#social_media-youtube {
+		margin-right: 0em;
+		background-position: 0px 207px;
+	}
+
+	#level_4 > div > span,
+	#footer > div > div:first-of-type > h6, 
+	#footer > div > div:first-of-type > h6 + a, 
+	#footer > div > p {
+		font-size: 0.9em;
+	}
+
+
+	#level_4 > div > span {
+		margin-top: 5.6em;
+	}
+	
+	#level_4 > div > span + a {
+		display: none;
+	}
+
+	#footer, 
+	#bkgrnd-footer {
+		height: 19.5em !important;
+	}
+	
+	#footer > div:first-of-type {
+		height: 3.3em;
+	}
+
+	#footer > div + div, 
+	#footer > div > img {
+		display: none;
+	}
+
+	#footer > div > div:first-of-type {
+		margin: 0 auto;
+		float: left;
+	}
+
+	#footer > div > div:first-of-type > h6 {
+		margin-top: 0.7em;
+		text-align: center;
+	}
+
+	#footer > div > div:first-of-type > h6 + a {
+		text-align: center;
+	}
+
+	#footer > div + div + div + div {
+		display: block !important;
+		margin: 0.5em 0 0 5.2em;
+	}
+
+	#footer > div + div + div + div > img {
+		display: block;
+		margin: 1.75em auto 0.7em auto;
+	}
+
+	#footer > div > p {
+		margin-right: 3em;
+	}
+
+	#bkgrnd-footer > div + div {
+		height: 15.9em;
+		margin-top: 3.25em;
+	}
+
+	#bkgrnd-footer > div + div > div {
+		display: none;
+	}
+
+	#bkgrnd-footer > div + div > div + div + div {
+		height: 15.7em;
+		display: block;
+		margin-left: 4.8em;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 412px) {
+	html, 
+	body, 
+	#header-shadow, 
+	#header-shadow > div, 
+	.menu-nav,
+	#level_0, 
+	#box-l0-left, 
+	#box-l0-left > div, 
+	#box-l0-right,
+	#level_1, 
+	#level_2, 
+	#box-l2-left, 
+	#box-l2-right, 
+	#level_3, 
+	#level_3 > div, 
+	#level_3 > form > div, 
+	#level_4 {
+		width: 23.45em !important;
+	}
+		
+	#footer, 
+	#bkgrnd-footer, 
+	#bkgrnd-footer > div {
+		width: 21.7em !important;
+	}
+
+	#bkgrnd {
+		top: 0;
+	}
+
+	#bkgrnd > div {
+		padding-bottom: 0.75em;
+	}
+
+	#header, 
+	#header-shadow > div:first-of-type, 
+	#header-shadow > div:last-of-type, 
+	#menu {
+		display: none;
+	}
+
+	#bttn-support_at-mobile {
+		width: 12em;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#menu-item-bttn {
+		display: block !important;
+	}
+
+	.menu-nav {
+		height: 1.9em;
+		padding: 1em 0;
+	}
+
+	#menu-mobile_button {
+		display: block;
+	}
+
+	#menu-mobile_button > a {
+		width: 12em;
+		margin: 0 auto;
+    padding: 0.5em;
+    font-size: 0.86em;
+		background-color: #e4c877;
+    color: #a67737;
+		box-shadow: 2px 2px 1px #66686a;
+	}
+
+	#level_0 {
+		height: 42.5em;
+	}
+
+	#bkgrnd-level_0 {
+		height: 46.75em;
+	}
+
+	#box-l0-left {
+		height: 17em;
+	}
+
+	#box-l0-left, 
+	#box-l0-right {
+		display: block;
+	}
+	
+	#box-l0-left > img {
+		width: 22.5em;
+		height: 11.75em;
+	}
+	
+	#box-l0-left > div {
+		position: relative;
+		margin-top: 0.2em;
+		top: 0;
+	}
+
+	h4 {
+		font-size: 0.86em;
+	}
+
+	#box-l0-left p {
+		font-size: 0.55em;
+	}
+
+	iframe {
+		width: 22.48em;
+		height: 12.63em;
+		padding: 0 0.5em;
+	}
+
+	#box-l0-right {
+		height: 24.7em;
+		margin-top: 0.6em;
+	}
+
+	#box-l0-right > div > h3 {
+		width: 19.3em;
+	}
+
+	#box-l0-right > div {
+		width: 23.45em;
+	}
+	
+	#box-l0-right > div + div {
+		width: 21.92em;
+		padding: 0.5em 0.75em 1em 0.75em;
+	}
+
+	#box-l0-right > div + div > div {
+		margin: 0.7em auto 0.8em auto;
+	}
+
+	#level_1 {
+		height: 36em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_1 {
+		height: 36em
+	}
+
+	h1 {
+		font-size: 1.3em;
+		border-width: 1px;
+	}
+
+	#level_1 > h1 {
+		width: 10.1em;
+	}
+ 
+	#level_1 > img {
+		width: 19.4em;
+		height: 7.56em;
+		margin: 0.75em auto;
+	}
+
+	#level_1 > p {
+		width: 19.4em;
+		padding: 0 0.75em;
+		font-size: 0.86em;
+		line-height: 1.4em;
+	}
+
+	#level_2 {
+		height: 67.25em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_2 {
+		height: 68em;
+		background: none;
+	}
+
+	#box-l2-left, 
+	#box-l2-right {
+		height: 23.25em;
+		display: block;
+	}
+
+	#box-l2-right {
+		height: 37.9em;
+	}
+
+	#box-l2-left > a, 
+	#box-l2-right > a, 
+	#box-l2-left > p, 
+	#box-l2-right > p, 
+	#box-l2-right > h5 {
+		font-size: 0.96em;
+	}
+
+	#box-l2-left > div {
+		width: 18em;
+		margin: 0.5em auto;
+	}
+	
+	#box-l2-mid {
+		display: none;
+	}
+
+	#box-l2-right > iframe {
+		padding: 0 0.5em;
+	}
+
+	#box-l2-right > div {
+		width: 18.55em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#level_3 {
+		height: 53.25em;
+		padding: 0.95em 0;
+	}
+
+	#bkgrnd-level_3 {
+		height: 54.25em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/3-mobile.jpg');
+	}
+
+	#level_3 > p {
+		width: 22em;
+		display: block;
+		margin: 1em auto;
+		padding: 0 0.75em;
+		font-size: 0.86em;
+	}
+
+	#level_3 > form > div {
+		height: 16.25em;
+	}
+
+	input[type='text'], 
+	textarea {
+		width: 20.75em;
+		display: block;
+		margin: 0 auto 0.75em auto;
+		font-size: 0.96em;
+	}
+
+	textarea {
+		width: 21.5em;
+	}
+
+	input[type='submit'] {
+		float: none;
+		margin: 0 auto;
+		right: 0;
+	}
+
+	#level_4 {
+		height: 17.7em;
+		padding: 0.95em 0;
+	}
+	
+	#bkgrnd-level_4 {
+		height: 19em;
+	}
+
+	#level_4 > h6 {
+		width: 21em;
+		display: block;
+		margin: 0 auto;
+		font-family: "merriweather", serif;
+		font-size: 0.76em;
+		color: #66686a;
+	}
+
+	#level_4 > div {
+		width: 4.69em;
+		height: 5em;
+		margin-right: 3.95em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons-mobile.png');
+	}
+
+	#level_4 > div:first-of-type {
+		margin-top: 1em;
+		margin-left: 0.5em;
+	}
+
+	#social_media-periscope {
+		background-position: 0px 107px;
+	}
+
+	#social_media-instagram {
+		background-position: 0 -193px;
+	}
+
+	#social_media-twitter {
+		margin-top: 1em;
+		margin-left: 5em;
+		background-position: 0px -92px;
+	}
+
+	#social_media-youtube {
+		background-position: 0px 207px;
+	}
+
+	#level_4 > div > span {
+		margin-top: 5.75em;
+		font-size: 0.86em;
+	}
+	
+	#level_4 > div > span + a {
+		display: none;
+	}
+
+	#footer, 
+	#bkgrnd-footer {
+		height: 19em !important;
+		padding-left: 1.75em;
+	}
+	
+	#footer > div:first-of-type {
+		height: 3.3em;
+	}
+
+	#footer > div + div, 
+	#footer > div > img {
+		display: none;
+	}
+
+	#footer > div > div:first-of-type {
+		float: left;
+		margin-left: 6.25em;
+	}
+
+	#footer > div > div:first-of-type > h6 {
+		margin-top: 0.7em;
+	}
+
+	#footer > div > div:first-of-type > h6 + a {
+		text-align: center;
+	}
+
+	#footer > div + div + div + div {
+		display: block !important;
+		margin-left: 2.05em;
+	}
+
+	#footer > div + div + div + div > img {
+		display: block;
+		margin: 1.65em auto 0.5em auto;
+	}
+
+	#bkgrnd-footer > div + div {
+		height: 13.7em;
+		margin-top: 2.75em;
+	}
+
+	#bkgrnd-footer > div + div > div {
+		display: none;
+	}
+
+	#bkgrnd-footer > div + div > div + div + div {
+		height: 15.7em;
+		display: block;
+		margin-left: 2.05em;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	html, 
+	body, 
+	#header-shadow, 
+	#header-shadow > div, 
+	.menu-nav,
+	#level_0, 
+	#box-l0-left, 
+	#box-l0-left > div, 
+	#box-l0-right, 
+	#level_1, 
+	#level_2, 
+	#box-l2-left, 
+	#box-l2-right, 
+	#level_3, 
+	#level_3 > div, 
+	#level_3 > form > div, 
+	#level_4 {
+		width: 22.5em !important;
+	}
+		
+	#footer, 
+	#bkgrnd-footer, 
+	#bkgrnd-footer > div {
+		width: 22.5em !important;
+	}
+
+	#bkgrnd {
+		top: 1.9em;
+	}
+
+	#bkgrnd > div {
+		padding-bottom: 0.75em;
+	}
+
+	#header, 
+	#header-shadow > div:first-of-type, 
+	#header-shadow > div:last-of-type, 
+	#menu {
+		display: none;
+	}
+
+	#bttn-support_at-mobile {
+		width: 12em;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#menu-item-bttn {
+		display: block !important;
+	}
+
+	.menu-nav {
+		height: 1.9em;
+		padding: 1em 0;
+	}
+
+	#menu-mobile_button {
+		display: block;
+	}
+
+	#menu-mobile_button > a {
+		width: 12em;
+		margin: 0 auto;
+    padding: 0.5em;
+    font-size: 0.86em;
+		background-color: #e4c877;
+    color: #a67737;
+		box-shadow: 2px 2px 1px #66686a;
+	}
+
+	#level_0 {
+		height: 43.2em;
+	}
+
+	#bkgrnd-level_0 {
+		height: 45.7em;
+	}
+
+	#box-l0-left {
+		height: 18.5em;
+	}
+
+	#box-l0-left, 
+	#box-l0-right {
+		display: block;
+	}
+	
+	#box-l0-left > img {
+		width: 21.5em;
+		height: 11.25em;
+	}
+	
+	#box-l0-left > div {
+		position: relative;
+		margin-top: 0.2em;
+		top: 0;
+	}
+
+	h4 {
+		font-size: 0.86em;
+	}
+
+	#box-l0-left p {
+		font-size: 0.73em;
+	}
+
+	iframe {
+		width: 21.5em;
+		height: 12.06em;
+		padding: 0 0.5em;
+	}
+
+	#box-l0-right {
+		height: 22.2em;
+		margin-top: 0.5em;
+	}
+
+	#box-l0-right > div {
+		width: 22.5em;
+	}
+
+	#box-l0-right > div > h3 {
+		width: 21.1em;
+	}
+
+	#box-l0-right > div + div {
+		width: 21em;
+		padding: 0.5em 0.75em 1em 0.75em;
+	}
+
+	#box-l0-right > div + div > div {
+		margin: 0.7em auto 0.8em auto;
+	}
+
+	#level_1 {
+		height: 35.7em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_1 {
+		height: 35.7em
+	}
+
+	h1 {
+		font-size: 1.3em;
+		border-width: 1px;
+	}
+
+	#level_1 > h1 {
+		width: 10.1em;
+	}
+ 
+	#level_1 > img {
+		width: 21.5em;
+		height: 8.38em;
+		margin: 0.75em auto;
+	}
+
+	#level_1 > p {
+		width: 21.5em;
+		padding: 0 0.75em;
+		font-size: 0.86em;
+		line-height: 1.4em;
+	}
+
+	#level_2 {
+		height: 66.2em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_2 {
+		height: 66.9em;
+		background: none;
+	}
+
+	#box-l2-left, 
+	#box-l2-right {
+		height: 23em;
+		display: block;
+	}
+
+	#box-l2-left > a, 
+	#box-l2-right > a, 
+	#box-l2-left > p, 
+	#box-l2-right > p, 
+	#box-l2-right > h5 {
+		font-size: 0.96em;
+	}
+
+	#box-l2-left > div {
+		width: 18em;
+		margin: 0.5em auto;
+	}
+	
+	#box-l2-mid {
+		display: none;
+	}
+
+	#box-l2-right {
+		height: 40.7em;
+	}
+	#box-l2-right > iframe {
+		padding: 0 0.5em;
+	}
+
+	#box-l2-right > div {
+		width: 18.55em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#level_3 {
+		height: 38em;
+	}
+
+	#bkgrnd-level_3 {
+		height: 39em;
+	}
+
+	#level_3 > p {
+		width: 24em;
+		display: block;
+		margin: 1em auto;
+		padding: 0 0.75em;
+		font-size: 0.86em;
+	}
+
+	#level_3 > form > div {
+		height: 16.05em;
+	}
+
+	input[type='text'], 
+	textarea {
+		width: 20.25em;
+		display: block;
+		margin: 0 auto 0.75em auto;
+		font-size: 0.96em;
+	}
+
+	textarea {
+		width: 21.1em;
+	}
+
+	input[type='submit'] {
+		float: none;
+		margin: 0 auto;
+		right: 0;
+	}
+
+	#level_4 {
+		height: 17.75em;
+	}
+	
+	#bkgrnd-level_4 {
+		height: 20.5em;
+	}
+
+	#level_4 > h6 {
+		width: 21.5em;
+		display: block;
+		margin: 0 auto;
+		font-family: "merriweather", serif;
+		font-size: 0.76em;
+		color: #66686a;
+	}
+
+	#level_4 > div {
+		width: 4.69em;
+		height: 5em;
+		margin-right: 3.7em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons-mobile.png');
+	}
+
+	#level_4 > div:first-of-type {
+		margin-top: 1em;
+		margin-left: 0.3em;
+	}
+
+	#social_media-periscope {
+		background-position: 0px 107px;
+	}
+
+	#social_media-instagram {
+		background-position: 0 -193px;
+	}
+
+	#social_media-twitter {
+		margin-top: 1em;
+		margin-left: 4.65em;
+		background-position: 0px -92px;
+	}
+
+	#social_media-youtube {
+		background-position: 0px 207px;
+	}
+
+	#level_4 > div > span {
+		margin-top: 5.75em;
+		font-size: 0.86em;
+	}
+	
+	#level_4 > div > span + a {
+		display: none;
+	}
+
+	#footer {
+		height: 18.25em;
+	}
+	
+	#bkgrnd-footer {
+		height: 19em !important;
+	}
+	
+	#footer > div:first-of-type {
+		height: 3.3em;
+	}
+
+	#footer > div + div, 
+	#footer > div > img {
+		display: none;
+	}
+
+	#footer > div > div:first-of-type {
+		float: left;
+		margin-left: 7.5em;
+	}
+
+	#footer > div > div:first-of-type > h6 {
+		margin: 0 auto;
+	}
+
+	#footer > div > div:first-of-type > h6 + a {
+		text-align: center;
+	}
+
+	#footer > div + div + div + div {
+		display: block !important;
+		margin-left: 3.25em;
+	}
+
+	#footer > div + div + div + div > img {
+		display: block;
+		margin: 1.65em auto 0.5em auto;
+	}
+
+	#bkgrnd-footer > div + div {
+		height: 13.7em;
+		margin-top: 2.75em;
+	}
+
+	#bkgrnd-footer > div + div > div {
+		display: none;
+	}
+
+	#bkgrnd-footer > div + div > div + div + div {
+		height: 15.7em;
+		display: block;
+		margin-left: 3.25em;
+	}
+}
+
+@media screen and (max-width: 320px)	{
+	html, 
+	body, 
+	#header-shadow, 
+	#header-shadow > div, 
+	.menu-nav,
+	#level_0, 
+	#box-l0-left, 
+	#box-l0-left > div, 
+	#box-l0-right, 
+	#level_1, 
+	#level_2, 
+	#box-l2-left, 
+	#box-l2-right, 
+	#level_3, 
+	#level_3 > div, 
+	#level_3 > form > div, 
+	#level_4 {
+		width: 20em !important;
+	}
+		
+	#footer, 
+	#bkgrnd-footer, 
+	#bkgrnd-footer > div {
+		width: 20em !important;
+	}
+
+	#bkgrnd {
+		top: 0;
+	}
+
+	#header, 
+	#header-shadow > div:first-of-type, 
+	#header-shadow > div:last-of-type, 
+	#menu {
+		display: none;
+	}
+
+	.menu-nav {
+		height: 1.9em;
+		padding: 1em 0;
+	}
+
+	#menu-mobile_button {
+		display: block;
+	}
+
+	#menu-mobile_button > a {
+		width: 12em;
+		margin: 0 auto;
+    padding: 0.5em;
+    font-size: 0.86em;
+		background-color: #e4c877;
+    color: #a67737;
+		box-shadow: 2px 2px 1px #66686a;
+	}
+
+	#menu-item-bttn {
+		display: block !important;
+	}
+
+	#bttn-support_at-mobile {
+		width: 12em;
+	}
+	
+	#level_0 {
+		height: 37.75em;
+	}
+
+	#bkgrnd-level_0 {
+		height: 42.5em;
+	}
+
+	#box-l0-left {
+		height: 15.65em;
+	}
+
+	#box-l0-left, 
+	#box-l0-right {
+		display: block;
+	}
+	
+	#box-l0-left > img {
+		width: 19.05em;
+		height: 9.75em;
+	}
+	
+	#box-l0-left > div {
+		position: relative;
+		margin-top: 0.2em;
+		top: 0;
+	}
+
+	h4 {
+		font-size: 0.86em;
+	}
+
+	#box-l0-left p {
+		font-size: 0.73em;
+	}
+
+	iframe {
+		width: 19em;
+		height: 10.06em;
+		padding: 0 0.5em;
+	}
+
+	#box-l0-right {
+		height: 22.2em;
+	}
+
+	#box-l0-right > div {
+		width: 19.5em;
+	}
+
+	#box-l0-right > div > h3 {
+		width: 17.1em;
+	}
+
+	#box-l0-right > div + div {
+		width: 18.47em;
+		padding: 0.5em 0.75em 1em 0.75em;
+	}
+
+	#box-l0-right > div + div > div {
+		margin: 0.7em auto 0.8em auto;
+	}
+
+	#level_1 {
+		height: 37.5em;
+		padding: 0.75em 0;
+	}
+
+	#bkgrnd-level_1 {
+		height: 38.9em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/bkgrnd/1-mobile.gif'); 
+	}
+
+	h1 {
+		font-size: 1.1em;
+		border-width: 1px;
+	}
+
+	#level_1 > h1 {
+		width: 10.1em;
+	}
+ 
+	#level_1 > img {
+		width: 19.05em;
+		height: 7.31em;
+		margin: 0.75em auto;
+	}
+
+	#level_1 > p {
+		width: 19.05em;
+		padding: 0 0.75em;
+		font-size: 0.86em;
+		line-height: 1.4em;
+	}
+
+	#level_2 {
+		height: 59em;
+		padding: 0.75em 0 0.5em 0;
+	}
+
+	#bkgrnd-level_2 {
+		height: 60.25em;
+		background: none;
+	}
+
+	#box-l2-left, 
+	#box-l2-right {
+		height: 21.2em;
+		display: block;
+	}
+
+	#box-l2-left > a, 
+	#box-l2-right > a, 
+	#box-l2-left > p, 
+	#box-l2-right > p, 
+	#box-l2-right > h5 {
+		font-size: 0.86em;
+	}
+
+	#box-l2-left > div {
+		width: 18em;
+		margin: 0.5em auto;
+	}
+	
+	#box-l2-mid {
+		display: none;
+	}
+
+	#box-l2-right > iframe {
+		padding: 0 0.5em;
+	}
+
+	#box-l2-right > div {
+		width: 18.55em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#bkgrnd-level_3 {
+		height: 42em;
+	}
+
+	#level_3 {
+		height: 41.1em;
+		padding: 0.8em 0;
+	}
+
+	#level_3 > p {
+		width: 18.55em;
+		display: block;
+		margin: 1em auto;
+		padding: 0 0.75em;
+		font-size: 0.86em;
+	}
+
+	#level_3 > form {
+		height: 20.75em;
+	}
+
+	#level_3 > form > div {
+		height: 16.05em;
+	}
+
+	input[type='text'], 
+	textarea {
+		width: 17.2em;
+		display: block;
+		margin: 0 auto 0.75em auto;
+		font-size: 0.96em;
+	}
+
+	textarea {
+		width: 18em;
+	}
+
+	input[type='submit'] {
+		margin: 0 auto;
+		float: none;
+		right: 0;
+	}
+
+	#level_4 {
+		height: 18em;
+	}
+	
+	#bkgrnd-level_4 {
+		height: 19.3em;
+	}
+
+	#level_4 > h6 {
+		width: 20.8em;
+		display: block;
+		margin: 0 auto;
+		font-family: "merriweather", serif;
+		font-size: 0.76em;
+		color: #66686a;
+	}
+
+	#level_4 > div {
+		width: 4.69em;
+		height: 5em;
+		margin-right: 2.5em;
+		background-image: url('/aroundtown/wp/wp-content/themes/ccjdev_at/assets/img/elements/social_media_icons-mobile.png');
+	}
+
+	#level_4 > div:first-of-type {
+		margin-top: 1em;
+		margin-left: 0.5em;
+	}
+
+	#social_media-periscope {
+		background-position: 0px 107px;
+	}
+
+	#social_media-instagram {
+		background-position: 0 -193px;
+	}
+
+	#social_media-twitter {
+		margin-top: 1em;
+		margin-left: 4.1em;
+		background-position: 0px -92px;
+	}
+
+	#social_media-youtube {
+		margin-right: 0;
+		background-position: 0px 207px;
+	}
+
+	#level_4 > div > span {
+		margin-top: 5.75em;
+		font-size: 0.86em;
+	}
+	
+	#level_4 > div > span + a {
+		display: none;
+	}
+
+	#footer, 
+	#bkgrnd-footer {
+		height: 19.05em !important;
+	}
+	
+	#footer > div:first-of-type {
+		height: 3.3em;
+	}
+
+	#footer > div + div, 
+	#footer > div > img {
+		display: none;
+	}
+
+	#footer > div > div:first-of-type {
+		width: 20em;
+		float: left;
+	}
+
+	#footer > div > div:first-of-type > h6 {
+		margin-top: 0.7em;
+		text-align: center;
+	}
+
+	#footer > div > div:first-of-type > h6 + a {
+		text-align: center;
+	}
+
+	#footer > div + div + div + div {
+		height: 15.75em;
+		display: block !important;
+		margin-left: 2em;
+	}
+
+	#footer > div + div + div + div > img {
+		margin: 1.5em auto 0.75em auto;
+	}
+
+	#bkgrnd-footer > div + div {
+		height: 15.4em;
+		margin-top: 2.75em;
+	}
+
+	#bkgrnd-footer > div + div > div {
+		display: none;
+	}
+
+	#bkgrnd-footer > div + div > div + div + div {
+		height: 15.75em;
+		display: block;
+		margin-left: 2em;
+	}
+}
